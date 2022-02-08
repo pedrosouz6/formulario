@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h2>Formulário</h2>
+        <form>
+            <div id="segurar">
+                <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" placeholder="Digite seu Nome" id="nome" maxlength="40">
+                    <small id="erro--nome">Preencha o campo nome</small>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Ex: pedro@gmail.com" id="email" maxlength="50">
+                    <small id="erro--email">Preencha o campo email</small>
+                </div>
+                <div>
+                    <label for="cep">CEP &nbsp; <sup>(sem o " - ")</sup></label>
+                    <input type="number" placeholder="Ex: 01001000" id="cep">
+                    <small id="erro--cep">Preencha o campo CEP corretamente</small>
+    
+                </div>
+                <div>
+                    <label for="estado">Estado</label>
+                    <input type="text" placeholder="Digite seu estado" id="estado" max="20">
+                    <small id="erro--estado">Preencha o campo estado</small>
+    
+                </div>
+                <div>
+                    <label for="cidade">Cidade</label>
+                    <input type="text" placeholder="Digite sua cidade" id="cidade" maxlength="35">
+                    <small id="erro--cidade">Preencha o campo cidade</small>
+                </div>
+                <div>
+                    <label for="bairro">Bairro</label>
+                    <input type="text" placeholder="Digite seu bairro" id="bairro" maxlength="35">
+                    <small id="erro--bairro">Preencha o campo bairro</small>
+    
+                </div>
+                <div>
+                    <label for="endereco">Endereço</label>
+                    <input type="text" placeholder="Ex: Praça da Sé" id="endereco" maxlength="35">
+                    <small id="erro--endereco">Preencha o campo endereço</small>
+    
+                </div>
+                <div>
+                    <label for="complemento">Complemento &nbsp; <sup>(opcional)</sup> </label>
+                    <input type="text" placeholder="Digite seu complemento" id="complemento">
+                    <small id="erro--complemento">Preencha o campo complemento</small>
+                </div>
+            </div>
+            <div id="div-enviar">
+                <input type="submit" value="Enviar">
+
+            </div>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
